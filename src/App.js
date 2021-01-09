@@ -1,12 +1,15 @@
-import React, { Fragment } from "react";
+import React, { Fragment, Suspense, lazy } from "react";
 
 import Sidebar from "./components/sidebar/Sidebar";
-import Main from "./components/main/Main";
+
+const Main = lazy(() => import("./components/main/Main"));
 function App() {
   return (
     <Fragment>
       <Sidebar />
+      <Suspense fallback={<div>loading...</div>}>
       <Main />
+      </Suspense>
     </Fragment>
   );
 }
