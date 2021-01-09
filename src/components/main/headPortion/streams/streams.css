@@ -1,0 +1,116 @@
+.main__one .streams {
+  width: 60%;
+  padding: 1.3rem 0;
+  padding-left: 2rem;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.main__one .streams__head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 0.8rem;
+}
+
+.main__one .streams__heading--1 {
+  color: #090707;
+  font-weight: 500;
+  margin-right: 0.2rem;
+}
+
+.main__one .streams__heading--2 {
+  color: rgba(9, 7, 7, 0.8);
+  font-weight: 300;
+}
+
+.main__one .streams__options {
+  font-size: 1.2rem;
+  color: rgba(238, 238, 238, 0.5);
+  -webkit-filter: brightness(70%);
+  filter: brightness(70%);
+  cursor: pointer;
+}
+
+.main__one .streams__user {
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  position: absolute;
+  top: 45%;
+}
+
+.main__one .streams__user div {
+  height: 3rem;
+  width: 3rem;
+  border: 3px solid #e53a40;
+  border-radius: 1.1rem;
+  cursor: pointer;
+}
+
+.main__one .streams__user--1 {
+  background-image: url("../../../../images/user-pic-1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.main__one .streams__user--2 {
+  background-image: url("../../../../images/user-pic-2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.main__one .streams__user--3 {
+  background-image: url("../../../../images/user-pic-3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.main__one .streams__user--4 {
+  background-image: url("../../../../images/user-pic-4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.main__one .streams__user--5 {
+  background-image: url("../../../../images/back-big-6.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.main__one .streams__user--6 {
+  background-image: url("../../../../images/user-pic-4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.main__one .streams__user--7 {
+  background-image: url("../../../../images/user-pic-3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.main__one .streams__user--8 {
+  background-image: url("../../../../images/user-pic-2.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.main__one .streams__user--9 {
+  background-image: url("../../../../images/user-pic-1.jpg");
+  background-size: cover;
+  background-position: center;
+}

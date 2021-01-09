@@ -1,0 +1,130 @@
+.main__three .tutors {
+  width: 60%;
+  padding-left: 2rem;
+  position: relative;
+}
+
+.main__three .tutors__head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 0.8rem;
+}
+
+.main__three .tutors__heading--1 {
+  color: #090707;
+  font-weight: 500;
+  margin-right: 0.2rem;
+}
+
+.main__three .tutors__heading--2 {
+  color: rgba(9, 7, 7, 0.8);
+  font-weight: 300;
+}
+
+.main__three .tutors__options {
+  font-size: 1.2rem;
+  color: rgba(238, 238, 238, 0.5);
+  -webkit-filter: brightness(70%);
+  filter: brightness(70%);
+  cursor: pointer;
+}
+
+.main__three .tutors__data {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  position: absolute;
+  top: 15%;
+  width: 95%;
+}
+
+.main__three .tutors__data--single {
+  height: 5rem;
+  background-color: rgba(238, 238, 238, 0.5);
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding: 0 1rem;
+}
+
+.main__three .tutors__data--single__data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.main__three .tutors__data--single__icon {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 0.8rem;
+  margin-right: 0.5rem;
+}
+
+.main__three .tutors__data--single__heading {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #090707;
+  text-transform: capitalize;
+}
+
+.main__three .tutors__data--single__info {
+  font-weight: 500;
+  font-size: 0.7rem;
+}
+
+.main__three .tutors__data--single__options {
+  font-size: 1rem;
+  background-color: white;
+  padding: 0.5rem 0.7rem;
+  border-radius: 50%;
+  color: rgba(9, 7, 7, 0.7);
+  -webkit-box-shadow: 0 0.2rem 0.2rem rgba(9, 7, 7, 0.1);
+  box-shadow: 0 0.2rem 0.2rem rgba(9, 7, 7, 0.1);
+}
+
+.main__three .tutors__data--single__options:hover {
+  cursor: pointer;
+}
+
+.main__three .tutors__data--1--icon {
+  background-image: url("../../../../images/user-pic-3.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.main__three .tutors__data--2--icon {
+  background-image: url("../../../../images/user-pic-4.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.main__three .tutors__data--3--icon {
+  background-image: url("../../../../images/user-pic-1.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.main__three .tutors__data--4--icon {
+  background-image: url("../../../../images/user-pic-2.jpg");
+  background-size: cover;
+  background-position: center;
+}

@@ -1,0 +1,107 @@
+.main__one .search {
+  padding: 1.3rem 0;
+  border-radius: 1rem;
+  width: 35%;
+  margin-left: 5%;
+  position: relative;
+}
+
+.main__one .search__head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 0.8rem;
+}
+
+.main__one .search__heading--1 {
+  color: #090707;
+  font-weight: 500;
+  margin-right: 0.2rem;
+}
+
+.main__one .search__heading--2 {
+  color: rgba(9, 7, 7, 0.8);
+  font-weight: 300;
+}
+
+.main__one .search__options {
+  font-size: 1.2rem;
+  color: rgba(238, 238, 238, 0.5);
+  -webkit-filter: brightness(70%);
+  filter: brightness(70%);
+  cursor: pointer;
+}
+
+.main__one .search-box {
+  position: absolute;
+  width: 100%;
+  top: 45%;
+}
+
+.main__one .search-box__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+}
+
+.main__one .search-box__form input {
+  border: none;
+  height: 2.5rem;
+  width: 80%;
+  background-color: rgba(238, 238, 238, 0.5);
+  border-radius: 0.7rem;
+  padding: 0 1rem;
+  font-weight: 500;
+  font-size: 0.9rem;
+  color: #090707;
+}
+
+.main__one .search-box__form input::-webkit-input-placeholder {
+  color: #777;
+  font-size: 0.8rem;
+}
+
+.main__one .search-box__form input:-ms-input-placeholder {
+  color: #777;
+  font-size: 0.8rem;
+}
+
+.main__one .search-box__form input::-ms-input-placeholder {
+  color: #777;
+  font-size: 0.8rem;
+}
+
+.main__one .search-box__form input::placeholder {
+  color: #777;
+  font-size: 0.8rem;
+}
+
+.main__one .search-box__form input:focus {
+  -webkit-box-shadow: 0 0 0.3rem rgba(9, 7, 7, 0.2);
+  box-shadow: 0 0 0.3rem rgba(9, 7, 7, 0.2);
+}
+
+.main__one .search-box__form__btn {
+  height: 2.5rem;
+  border-radius: 0.7rem;
+  width: 20%;
+  border: none;
+  background-color: #ee491f;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 500;
+  margin-left: 1rem;
+  cursor: pointer;
+  -webkit-box-shadow: 0 0.3rem 0.5rem rgba(9, 7, 7, 0.3);
+  box-shadow: 0 0.3rem 0.5rem rgba(9, 7, 7, 0.3);
+}

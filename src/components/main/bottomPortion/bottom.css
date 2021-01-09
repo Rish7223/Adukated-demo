@@ -1,0 +1,10 @@
+.main__three {
+  -ms-grid-column: 1;
+  grid-column: 1;
+  -ms-grid-row: 7;
+  -ms-grid-row-span: 3;
+  grid-row: 7/10;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}

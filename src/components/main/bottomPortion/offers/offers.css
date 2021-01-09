@@ -1,0 +1,88 @@
+.main__three .offers {
+  width: 35%;
+  margin-left: 5%;
+}
+
+.main__three .offers__head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 0.8rem;
+}
+
+.main__three .offers__heading--1 {
+  color: #090707;
+  font-weight: 500;
+  margin-right: 0.2rem;
+}
+
+.main__three .offers__heading--2 {
+  color: rgba(9, 7, 7, 0.8);
+  font-weight: 300;
+}
+
+.main__three .offers__options {
+  font-size: 1.2rem;
+  color: rgba(238, 238, 238, 0.5);
+  -webkit-filter: brightness(70%);
+  filter: brightness(70%);
+  cursor: pointer;
+}
+
+.main__three .offers__banner {
+  margin-top: 1rem;
+  height: 80%;
+  background-image: -webkit-gradient(
+      linear,
+      left top,
+      right top,
+      from(#3337),
+      to(#3331)
+    ),
+    url("../../../../images/offer-pic.jpg");
+  background-image: linear-gradient(to right, #3337, #3331),
+    url("../../../../images/offer-pic.jpg");
+  background-size: cover;
+  background-position: center;
+  border-radius: 1rem;
+  position: relative;
+}
+
+.main__three .offers__banner__text {
+  position: absolute;
+  top: 10%;
+  left: 5%;
+}
+
+.main__three .offers__banner__heading {
+  font-size: 1.3rem;
+  color: #fff;
+  margin-bottom: 0.3rem;
+}
+
+.main__three .offers__banner__heading-2 {
+  font-size: 1rem;
+  color: #141414;
+  font-weight: 500;
+}
+
+.main__three .offers__banner__btn {
+  position: absolute;
+  top: 60%;
+  left: 5%;
+  height: 2.5rem;
+  width: 7rem;
+  outline: none;
+  border: none;
+  color: white;
+  background-color: #0585ac;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
